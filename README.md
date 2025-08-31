@@ -10,6 +10,7 @@ Calcula o valor do desconto e o preço final de um produto baseado em uma porcen
 
 **Como executar:**
 ```bash
+cd src
 javac CalculadoraDesconto.java
 java CalculadoraDesconto
 ```
@@ -20,6 +21,7 @@ Calcula o imposto ITBI com base no maior valor entre o valor de transação e o 
 
 **Como executar:**
 ```bash
+cd src
 javac CalculadoraITBI.java
 java CalculadoraITBI
 ```
@@ -30,6 +32,7 @@ Calcula a média de notas de um aluno e determina se está aprovado ou reprovado
 
 **Como executar:**
 ```bash
+cd src
 javac SistemaAvaliacao.java
 java SistemaAvaliacao
 ```
@@ -40,6 +43,7 @@ Verifica se uma pessoa pode se aposentar baseado em idade, sexo e tempo de contr
 
 **Como executar:**
 ```bash
+cd src
 javac CalculadoraAposentadoria.java
 java CalculadoraAposentadoria
 ```
@@ -50,6 +54,7 @@ Calcula a resistência equivalente, maior e menor resistência em um circuito s�
 
 **Como executar:**
 ```bash
+cd src
 javac CircuitoResistencias.java
 java CircuitoResistencias
 ```
@@ -60,6 +65,7 @@ Simula um sistema de login com 3 tentativas de acesso.
 
 **Como executar:**
 ```bash
+cd src
 javac SistemaLogin.java
 java SistemaLogin
 ```
@@ -70,6 +76,7 @@ Gera a tabuada de um número de 1 a 10.
 
 **Como executar:**
 ```bash
+cd src
 javac GeradorTabuada.java
 java GeradorTabuada
 ```
@@ -77,6 +84,8 @@ java GeradorTabuada
 ## Como compilar e executar todos os programas
 
 ```bash
+# Abrir a pasta src
+cd src
 # Compilar todos os arquivos
 javac *.java
 
